@@ -25,7 +25,7 @@
     attr()
     removeAttr()
 
-2. Create Basic Notification.
+2. Createe Basic Notification.
    Make Notification Content Dynamic.
    Stack your notification.
 
