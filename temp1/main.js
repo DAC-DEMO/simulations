@@ -3,15 +3,16 @@
  */
 var imageList = ["img/nodejs-vs-java.png", "img/141.png", "img/cool.jpg", "img/infinite_truth.jpg"];
 
-var contentList = ["Failure is simply the opportunity to begin again, this time more intelligently.",
-                    "Yesterday, you said tomorrow.",
-                    "If you want to go fast, go alone. If you want to go far, bring others along.",
-                    "Always remember that the future comes one day at a time.",
-                    "Don't find fault. Find a remedy.",
-                    "When we give up on our dreams, we die while still alive."];
+var contentList = ["Failuree is simply the opportunity to begin again, this time more intelligently.",
+    "Yesterday, you said tomorrow.",
+    "If you want to go fast, go alone. If you want to go far, bring others along.",
+    "Always remember that the future comes one day at a time.",
+    "Don't find fault. Find a remedy.",
+    "When we give up on our dreams, we die while still alive."
+];
 
 
-function increaseCount(elemObj){
+function increaseCount(elemObj) {
     var currentCount = elemObj.children[1].innerHTML;
     var increaseCount = Number(currentCount) + 1;
 
@@ -19,7 +20,7 @@ function increaseCount(elemObj){
 };
 
 
-function increaseCountUsingJQuery(elemObj){
+function increaseCountUsingJQuery(elemObj) {
 
     var currentCount = $(elemObj).children().last().html();
     var increaseCount = Number(currentCount) + 1;
@@ -52,7 +53,7 @@ function postImageUsingJQuery() {
     $("#parentId").prepend(newobj);
 
     // some logic to display notification
-    $("#notificationId").fadeIn(2000, function(){
+    $("#notificationId").fadeIn(2000, function() {
         $("#notificationId").fadeOut(5000);
     });
 }
@@ -82,21 +83,19 @@ function postContentUsingQuery() {
     $("#parentId").prepend(newObj);
 
     // some logic to display notification
-    $("#notificationId").fadeIn(2000, function(){
+    $("#notificationId").fadeIn(2000, function() {
         $("#notificationId").fadeOut(5000);
     });
 }
 
 
 
-function postVideoUsingJQuery(){
+function postVideoUsingJQuery() {
     var newObj = $("#refIdForVideo").clone(true).css("display", "block").removeAttr("id");
     $("#parentId").prepend(newObj);
 
     // some logic to display notification
-    $("#notificationId").fadeIn(2000, function(){
+    $("#notificationId").fadeIn(2000, function() {
         $("#notificationId").fadeOut(5000);
     });
 }
-
-
