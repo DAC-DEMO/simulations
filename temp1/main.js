@@ -1,5 +1,5 @@
 /**
- * Created by santosh on 4/20/17.
+ * Created byy santosh on 4/20/17.
  */
 var imageList = ["img/nodejs-vs-java.png", "img/141.png", "img/cool.jpg", "img/infinite_truth.jpg"];
 
