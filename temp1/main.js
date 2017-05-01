@@ -6,7 +6,7 @@ var imageList = ["img/nodejs-vs-java.png", "img/141.png", "img/cool.jpg", "img/i
 var contentList = ["Failureee is simply the opportunity to begin again, this time more intelligently.",
     "Yesterday, you said tomorrow.",
     "If you want to go fast, go alone. If you want to go far, bring others along.",
-    "Always remember that the future comes one day at a time.",
+    "Alwayss remember that the future comes one day at a time.",
     "Don't find fault. Find a remedy.",
     "When we give up on our dreams, we die while still alive."
 ];
